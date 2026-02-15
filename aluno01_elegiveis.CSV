@@ -1,10 +1,5 @@
 id_materia,nome
-FACOM32105,Lógica para Computação
 FAMAT39214,Cálculo I
-FACOM32302,Estrutura de Dados I
-FACOM32303,Arquitetura e Organização de Computadores
-FACOM32305,Programação Orientada a Objetos
-FAGEN39050,Empreendedorismo
 FAMAT31022,Álgebra Linear
 FACOM32401,Banco de Dados I
 FACOM32402,Estrutura de Dados II
@@ -74,4 +69,3 @@ GSI078,Tópicos Especiais de Segurança da Informação
 GSI079,Tópicos Especiais em Algoritmos
 GSI083,Tópicos Especiais em Gestão de Projetos
 GSI084,Tópicos Especiais em Lógica
-LIBRAS01,Língua Brasileira de Sinais - Libras I

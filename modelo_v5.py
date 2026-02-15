@@ -77,7 +77,8 @@ def otimizar_plano_estudos(arq_prioridades, arq_turmas, arq_arestas, arq_aluno_p
     
     # Variáveis de Decisão: x_ik (matéria i, turma k)
     vars_x = {}
-    
+    info_slots = {} # OTIMIZAÇÃO: Armazena slots limpos para uso posterior
+
     for _, row in df_oferta_R.iterrows():
         i, k = row['id_materia'], row['id_turma']
         
@@ -91,6 +92,7 @@ def otimizar_plano_estudos(arq_prioridades, arq_turmas, arq_arestas, arq_aluno_p
             continue 
             
         vars_x[(i, k)] = pulp.LpVariable(f"x_{i}_{k}", cat='Binary')
+        info_slots[(i, k)] = slots_turma # Guarda para exibir e verificar choque
 
     if not vars_x:
         print("Não há turmas disponíveis (todas conflitam com os horários bloqueados).")
@@ -126,11 +128,8 @@ def otimizar_plano_estudos(arq_prioridades, arq_turmas, arq_arestas, arq_aluno_p
     # Garante que não haja duas aulas no mesmo horário
     mapa_slots = {}
     for (i, k), var in vars_x.items():
-        
-        slots_raw = df_oferta_R[(df_oferta_R['id_materia'] == i) & (df_oferta_R['id_turma'] == k)]['slots'].values[0]
-        slots = [s.strip().replace('"', '').replace("'", "") for s in str(slots_raw).split(',') if s.strip()]
-        
-        for t in slots:
+        # Usa o dicionário info_slots (otimizado) ao invés de ler o DF novamente
+        for t in info_slots[(i, k)]:
             if t not in mapa_slots: mapa_slots[t] = []
             mapa_slots[t].append(var)
             
@@ -162,15 +161,17 @@ def otimizar_plano_estudos(arq_prioridades, arq_turmas, arq_arestas, arq_aluno_p
                     "Disciplina": dados_materia[i]['nome'],
                     "Tipo": tipo,
                     "Turma": k,
-                    "Prioridade": prio
+                    "Prioridade": prio,
+                    "Horários": ", ".join(info_slots[(i, k)]) # Adicionado conforme solicitado
                 })
         
         if res:
             df_res = pd.DataFrame(res)
+            # Ordenação com Horários no final
             df_res = df_res.sort_values(by=['Tipo', 'Prioridade'], ascending=[True, False])
             
             print(df_res.to_string(index=False))
-            print("-" * 50)
+            print("-" * 60)
             print(f"Total Prioridade Acumulada: {total_prio}")
         else:
             print("O modelo encontrou uma solução ótima, mas nenhuma matéria foi selecionada.")
@@ -192,14 +193,12 @@ def otimizar_plano_estudos(arq_prioridades, arq_turmas, arq_arestas, arq_aluno_p
 #    qtd_optativas=1
 # )
 
-indisponiveis_aluno1 = ["SEG01", "SEG02", "SEX01", "SEX02"]
 otimizar_plano_estudos(
     'materias_prioridades.csv', 
     'turmas.csv', 
     'materias_arestas.csv', 
     'aluno01_elegiveis.csv',
-    horarios_indisponiveis=indisponiveis_aluno1,
-    qtd_optativas=2
+    qtd_optativas=1
 )
 
 # otimizar_plano_estudos(
