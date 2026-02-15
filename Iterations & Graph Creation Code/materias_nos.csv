@@ -1,0 +1,84 @@
+id,nome,carga_horaria,prioridade,obrigatoria
+FACIC39102,Contabilidade e Análise de Demonstrativos Financeiros,60,0,1
+FACOM32101,Informática e Sociedade,30,0,1
+FACOM32104,Introdução aos Sistemas de Informação,30,0,1
+FACOM32105,Lógica para Computação,60,0,1
+FACOM32102,Algoritmos e Programação I,60,0,1
+FACOM32201,Algoritmos e Programação II,60,0,1
+FAGEN31102,Fundamentos de Marketing,60,0,1
+FAGEN39531,Gestão Empresarial,60,0,1
+FAMAT39214,Cálculo I,90,0,1
+FACOM32302,Estrutura de Dados I,60,0,1
+FACOM32303,Arquitetura e Organização de Computadores,60,0,1
+FACOM32305,Programação Orientada a Objetos,60,0,1
+FAGEN39050,Empreendedorismo,60,0,1
+FAMAT31022,Álgebra Linear,45,0,1
+FACOM32401,Banco de Dados I,60,0,1
+FACOM32402,Estrutura de Dados II,60,0,1
+FACOM32403,Processo de Desenvolvimento de Software,60,0,1
+FACOM32404,Sistemas Operacionais,60,0,1
+FAMAT32401,Matemática para Ciência da Computação,60,0,1
+FACOM32304,Banco de Dados II,60,0,1
+FACOM32502,Gestão da Qualidade de Software,60,0,1
+FACOM32503,Programação para Dispositivos Móveis,60,0,1
+FACOM32504,Redes de Computadores,60,0,1
+FAMAT39505,Estatística,60,0,1
+FACOM32602,Ciência de Dados I,60,0,1
+FACOM32603,Desenvolvimento Web I,60,0,1
+FACOM32604,Gerência de Projetos em TI,60,0,1
+FACOM32605,Organização e Recuperação da Informação,60,0,1
+FACOM32606,Sistemas Distribuídos,60,0,1
+FACOM32701,Ciência de Dados II,60,0,1
+FACOM32702,Desenvolvimento Web II,60,0,1
+FACOM32704,Interação Humano-Computador,60,0,1
+FACOM32705,Pesquisa Operacional,60,0,1
+GSI031,Economia,45,0,1
+FACOM32804,Segurança da Informação,60,0,1
+FADIR39802,Direito,45,0,1
+FAGEN32802,Inovação e Gestão do Conhecimento,60,0,1
+FACED39020,Língua Brasileira de Sinais - Libras II,60,0,0
+FACOM39042,Bioinformática,60,0,0
+FACOM39043,Compiladores,60,0,0
+FACOM39044,Criptografia,60,0,0
+FACOM39045,Análise de Algoritmos,60,0,0
+FACOM39046,Comércio Eletrônico e Portais Corporativos,60,0,0
+FACOM39047,Computação Gráfica,60,0,0
+FACOM39048,Computação Móvel,60,0,0
+FACOM39049,Data Warehouse,60,0,0
+FACOM39050,Inteligência Artificial,60,0,0
+FACOM39051,Modelagem de Processos de Négocios,60,0,0
+FACOM39052,Multimídia,60,0,0
+FACOM39053,Processamento Digital de Imagens,60,0,0
+FACOM39054,Linguagens Formais e Autômatos,60,0,0
+FACOM39055,Teoria da Computação,60,0,0
+FACOM39056,Teoria dos Grafos,60,0,0
+FACOM39057,Tópicos Especiais de Banco de Dados,60,0,0
+FACOM39058,Tópicos Especiais de Projeto de Software,60,0,0
+FACOM39059,Tópicos Especiais em Computação I,60,0,0
+FACOM39060,Tópicos Especiais em Computação II,60,0,0
+FACOM39061,Tópicos Especiais em Computação III,60,0,0
+GSI049,Estruturas Algébricas e Teoria das Categorias,60,0,0
+GSI051,Inteligência Artificial Aplicada aos Negócios,60,0,0
+GSI052,Linguagens Comerciais,60,0,0
+GSI054,Métodos Computacionais,60,0,0
+GSI055,Mineração de Dados,60,0,0
+GSI059,Programação Paralela e Distribuída,60,0,0
+GSI060,Projeto de Interface de Software,60,0,0
+GSI061,Projeto de Protocolos de Comunicação,60,0,0
+GSI062,Projeto de Redes de Computadores,60,0,0
+GSI063,Redes Locais Industriais,60,0,0
+GSI064,Resolução de Problemas,60,0,0
+GSI065,Simulação,60,0,0
+GSI068,Tópicos de Informática na Educação,60,0,0
+GSI069,Tópicos em Tecnologias da Internet,60,0,0
+GSI071,Tópicos Especiais de Comércio Eletrônico,60,0,0
+GSI072,Tópicos Especiais de Engenharia de Software,60,0,0
+GSI073,Tópicos Especiais de Inteligência Artificial,60,0,0
+GSI074,Tópicos Especiais de Programação Orientada a Objetos,60,0,0
+GSI075,Tópicos Especiais de Programação para Internet,60,0,0
+GSI077,Tópicos Especiais de Redes de Computadores,60,0,0
+GSI078,Tópicos Especiais de Segurança da Informação,60,0,0
+GSI079,Tópicos Especiais em Algoritmos,60,0,0
+GSI083,Tópicos Especiais em Gestão de Projetos,60,0,0
+GSI084,Tópicos Especiais em Lógica,60,0,0
+LIBRAS01,Língua Brasileira de Sinais - Libras I,60,0,0
