@@ -1,8 +1,29 @@
 id_materia,nome
+FACOM32305,Programação Orientada a Objetos
+FAMAT31022,Álgebra Linear
+FACOM32401,Banco de Dados I
+FACOM32402,Estrutura de Dados II
+FACOM32403,Processo de Desenvolvimento de Software
+FACOM32404,Sistemas Operacionais
+FAMAT32401,Matemática para Ciência da Computação
+FACOM32304,Banco de Dados II
+FACOM32502,Gestão da Qualidade de Software
+FACOM32503,Programação para Dispositivos Móveis
+FACOM32504,Redes de Computadores
+FAMAT39505,Estatística
+FACOM32602,Ciência de Dados I
 FACOM32603,Desenvolvimento Web I
+FACOM32604,Gerência de Projetos em TI
+FACOM32605,Organização e Recuperação da Informação
+FACOM32606,Sistemas Distribuídos
+FACOM32701,Ciência de Dados II
 FACOM32702,Desenvolvimento Web II
+FACOM32704,Interação Humano-Computador
+FACOM32705,Pesquisa Operacional
 GSI031,Economia
+FACOM32804,Segurança da Informação
 FADIR39802,Direito
+FAGEN32802,Inovação e Gestão do Conhecimento
 FACED39020,Língua Brasileira de Sinais - Libras II
 FACOM39042,Bioinformática
 FACOM39043,Compiladores

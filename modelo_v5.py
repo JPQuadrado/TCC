@@ -193,28 +193,20 @@ def otimizar_plano_estudos(arq_prioridades, arq_turmas, arq_arestas, arq_aluno_p
 #    qtd_optativas=1
 # )
 
-otimizar_plano_estudos(
-    'materias_prioridades.csv', 
-    'turmas.csv', 
-    'materias_arestas.csv', 
-    'aluno01_elegiveis.csv',
-    qtd_optativas=1
-)
-
 # otimizar_plano_estudos(
 #     'materias_prioridades.csv', 
 #     'turmas.csv', 
 #     'materias_arestas.csv', 
 #     'aluno01_elegiveis.csv',
-#     qtd_optativas=2
+#     qtd_optativas=1
 # )
 
-# indisponiveis_aluno2 = ["SEX01", "SEX02"]
-# otimizar_plano_estudos(
-#     'materias_prioridades.csv',
-#     'turmas.csv', 
-#     'materias_arestas.csv', 
-#     'aluno02_elegiveis.csv',
-#     horarios_indisponiveis=indisponiveis_aluno2,
-#     qtd_optativas=2
-# )
+indisponiveis_aluno2 = ["SEX01", "SEX02"]
+otimizar_plano_estudos(
+    'materias_prioridades.csv',
+    'turmas.csv', 
+    'materias_arestas.csv', 
+    'aluno02_elegiveis.csv',
+    horarios_indisponiveis=indisponiveis_aluno2,
+    qtd_optativas=2
+)
