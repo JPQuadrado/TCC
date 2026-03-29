@@ -2,13 +2,9 @@
 Código fonte do TCC Modelo de otimização da grade horária para discentes da FACOM/UFU - v1.0
 
 
-> ATENÇÃO:   
-> Para evitar erros no uso do modelo, por favor clonar ou baixar a pasta e abrir ela como pasta raiz no VSCODE para que o programa consiga localizar os arquivos definidos de forma dinâmica no programa (sempre na pasta raiz).
-
-
 ## Instalando dependências
 
-As bibliotecas utilizadas para criação e utilização do modelo estão listadas no arquivo `requirements.txt` e o comando utilize o comando  `pip install -r requirements.txt` após a  instalação Python 3 no CMD para a instalação das bibliotecas usadas e suas versões.
+As bibliotecas utilizadas para criação e utilização do modelo estão listadas no arquivo `requirements.txt`, utilize o comando  `pip install -r requirements.txt` após a  instalação Python 3 no CMD para a instalação das bibliotecas usadas e suas versões.
 
 ## 1. Algoritmo de Prioridades
 
@@ -19,7 +15,7 @@ As bibliotecas utilizadas para criação e utilização do modelo estão listada
 
 O primeiro passo para utilizar o modelo é o cálculo da prioridade das matérias.
 
-O documento `materias_prioridade.csv` é gerado pelo arquivo `...\Iterations & Graph Creation Code\grafos_prioridade.py`, pórem para utilizá-lo é necessário mapear as materias no formato `materias_nos.csv` e os pré-requisitos no formato `materias_arestas.csv`.
+O documento `materias_prioridade.csv` é gerado pelo arquivo `...\Iterations & Graph Creation Code\grafos_prioridade.py`, porém para utilizá-lo é necessário mapear as materias no formato `materias_nos.csv` e os pré-requisitos no formato `materias_arestas.csv`.
 
 - O arquivo `materias_nos.csv` é responsável pela base do dígrafo que será gerado e contém as informações do nós (disciplina), os seus campos começam todos com o valor de prioridade igual a 0 e o algoritmo irá gerar `materias_prioridade.csv` já com o valor de prioridade no documento.
 
