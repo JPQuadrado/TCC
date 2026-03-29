@@ -7,7 +7,7 @@ As bibliotecas utilizadas para criação e utilização do modelo estão listada
 
 ## 1. Algoritmo de Prioridades
 
-> ATENÇÃO: 
+> ATENÇÃO:   
 > Se você for um aluno do curso de Sistemas de Informação - Campus Santa Mônica FACOM/UFU - Curriculo 2022/2 não é necessário realizar a parte 1, pois o arquivo `materias_prioridade.csv` já está montado de acordo com esse curriculo.
 
 O primeiro passo para utilizar o modelo é o calculo da prioridade das máterias.
