@@ -3,7 +3,7 @@ Código fonte do TCC Modelo de otimização da grade horária para discentes da 
 
 
 > ATENÇÃO:   
-> Para evitar erros no uso do modelo, por favor clonar ou baixar a pasta e abrir ela como pasta raiz no VSCODE para que o programa consigue localizar os arquivos definidos com localização dinâmica no programa (sempre na pasta raiz).
+> Para evitar erros no uso do modelo, por favor clonar ou baixar a pasta e abrir ela como pasta raiz no VSCODE para que o programa consiga localizar os arquivos definidos de forma dinâmica no programa (sempre na pasta raiz).
 
 
 ## Instalando dependências
