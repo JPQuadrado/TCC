@@ -7,9 +7,10 @@ As bibliotecas utilizadas para criação e utilização do modelo estão listada
 
 ## 1. Algoritmo de Prioridades
 
-> [!Atenção]   
+> ATENÇÃO:
 > Se você for um aluno do curso de Sistemas de Informação - Campus Santa Mônica FACOM/UFU - Curriculo 2022/2 não é necessário realizar a parte 1, pois o arquivo `materias_prioridade.csv` já está montado de acordo com esse curriculo.
 
-O primeiro passo para utilizar o modelo é o calculo da prioridade das máterias. O documento `materias_prioridade.csv` é gerado pelo arquivo `...\Iterations & Graph Creation Code\grafos_prioridade.py`, pórem para utiliza-lo é necessário mapear as materias no formato `materias_nos.csv` e os pré-requisitos no formato `materias_arestas.csv`.
+O primeiro passo para utilizar o modelo é o calculo da prioridade das máterias.
+O documento `materias_prioridade.csv` é gerado pelo arquivo `...\Iterations & Graph Creation Code\grafos_prioridade.py`, pórem para utiliza-lo é necessário mapear as materias no formato `materias_nos.csv` e os pré-requisitos no formato `materias_arestas.csv`.
 
 
